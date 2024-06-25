@@ -20,7 +20,7 @@ terraform {
 
     google = {
       source  = "hashicorp/google"
-      version = ">= 4.3.0, < 5.0"
+      version = ">= 4.3.0, < 6.0.0"
     }
 
     kubernetes = {
@@ -35,7 +35,7 @@ terraform {
   }
 
   provider_meta "google" {
-    module_name = "blueprints/terraform/terraform-google-tf-cloud-agents:tfc-agent-gke/v0.1.1"
+    module_name = "blueprints/terraform/terraform-google-tf-cloud-agents:tfc-agent-gke/v0.1.2"
   }
 }
 

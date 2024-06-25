@@ -18,12 +18,12 @@ terraform {
   required_providers {
     google = {
       source  = "hashicorp/google"
-      version = ">= 3.53, < 5.0.0"
+      version = ">= 3.53, < 6.0.0"
     }
   }
   required_version = ">= 0.13"
 
   provider_meta "google" {
-    module_name = "blueprints/terraform/terraform-google-tf-cloud-agents:tfc-oidc/v0.1.1"
+    module_name = "blueprints/terraform/terraform-google-tf-cloud-agents:tfc-oidc/v0.1.2"
   }
 }
